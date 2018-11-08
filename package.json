@@ -15,8 +15,6 @@
     "build:es": "NODE_ENV='es' babel src --out-dir es --ignore '__tests__','src/**/*.test.js','src/**/*.example.js'",
     "build:flow": "flow-copy-source -i '**/*.test.js' -i '**/*.example.js' src es && flow-copy-source -i '**/*.test.js' -i '**/*.example.js' src lib",
     "build": "npm run build:cjs && npm run build:es && npm run build:flow",
-    "build-storybook": "build-storybook",
-    "start": "start-storybook -p 6006",
     "test": "NODE_ENV='test' TZ='UTC' jest --coverage --runInBand",
     "test:watch": "npm run test -- --watch",
     "flow": "flow",
