@@ -18,7 +18,62 @@ $ yarn add remark-utils
 
 ## Usage
 
+### [mdToHtml](./src/mdToHtml.js)
+
+```js
+type MdToHtml = (markdownContent: string, options: *) => string;
+```
+
+```js
+import { mdToHtml } from 'remark-utils';
+
+const html = mdToHtml('# heading');
+
+// <h1 id="heading"><a href="#heading" aria-hidden class="anchor"><svg aria-hidden="true" height="24" version="1.1" viewBox="0 0 24 24" width="24"><path fill-rule="evenodd" d="..."></path></svg></a>heading</h1>
+```
+
+### [mdToElasticlunrIndex](./src/mdToElasticlunrIndex.js)
+
+```js
+type IndexingItem = {
+  title: string,
+  body: string,
+  url: string,
+};
+
+type MdToElasticlunrIndex = (
+  filenames: Array<string>,
+  indexItemMapper: (IndexingItem, filename: string) => IndexingItem,
+) => string;
+```
+
+```js
+// Server side
+import glob from 'glob';
+import { mdToElasticlunrIndex } from 'remark-utils';
+const filenames = glob.sync('path-to-md/**/*.md');
+const index: string = mdToElasticlunrIndex(filenames, i => i);
+
+// Client side
+import { Index } from 'elasticlunr';
+const idx = Index.load(JSON.parse(index));
+const results = idx
+  .search('query', {})
+  .map(({ ref }) => idx.documentStore.getDoc(ref))
+  .map(({ url, title, body }: IndexingItem) => ({
+    url,
+    title: highlightQuery(title),
+    body: highlightQuery(body),
+  }));
+```
+
+> Check the [Query from Index](https://github.com/weixsong/elasticlunr.js#5-query-from-index) section for more details.
+
 ## API
+
+### Options
+
+[src/utils/defaultOptions.js](./src/utils/defaultOptions.js)
 
 ## Development
 

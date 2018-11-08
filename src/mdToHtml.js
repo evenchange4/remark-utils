@@ -7,7 +7,7 @@ import remarkAutolink from 'gatsby-remark-autolink-headers';
 import defaultOptions from './utils/defaultOptions';
 
 const mdToHtml = (
-  mardownContent: string,
+  markdownContent: string,
   options: * = defaultOptions,
 ): string =>
   remark()
@@ -17,6 +17,6 @@ const mdToHtml = (
     )
     .use(() => markdownAST => remarkPrismjs({ markdownAST }, options.prismjs))
     .use(remarkHtml)
-    .processSync(mardownContent).contents;
+    .processSync(markdownContent).contents;
 
 export default mdToHtml;
