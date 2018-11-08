@@ -1,6 +1,6 @@
 {
   "name": "remark-utils",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "remark-utils",
   "main": "lib/index.js",
   "module": "es/index.js",
