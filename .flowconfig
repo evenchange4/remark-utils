@@ -1,0 +1,14 @@
+[ignore]
+.*/node_modules/.*
+<PROJECT_ROOT>/es/.*
+<PROJECT_ROOT>/lib/.*
+
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+
+[strict]

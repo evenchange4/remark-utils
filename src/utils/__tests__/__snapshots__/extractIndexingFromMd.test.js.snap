@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`extractIndexingFromMd 1`] = `
+Array [
+  Object {
+    "body": " header 1 標頭 1
+1-1
+1-2",
+    "title": "header 1 標頭",
+    "url": "#header-1-標頭",
+  },
+  Object {
+    "body": " header 2 標頭 2",
+    "title": "header 2 標頭",
+    "url": "#header-2-標頭",
+  },
+  Object {
+    "body": " header 3 標頭 3",
+    "title": "header 3 標頭",
+    "url": "#header-3-標頭",
+  },
+  Object {
+    "body": " header 4 標頭 4",
+    "title": "header 4 標頭",
+    "url": "#header-4-標頭",
+  },
+  Object {
+    "body": " header 5 標頭 5
+5-1",
+    "title": "header 5 標頭",
+    "url": "#header-5-標頭",
+  },
+  Object {
+    "body": " header 6 標頭 6
+6-1",
+    "title": "header 6 標頭",
+    "url": "#header-6-標頭",
+  },
+]
+`;
