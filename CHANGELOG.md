@@ -1,7 +1,11 @@
 ## Change Log
 
-### v0.1.0 (2018/11/08 03:20 +00:00)
+### v1.0.0 (2018/11/08 04:19 +00:00)
+- [aab5d10](https://github.com/evenchange4/remark-utils/commit/aab5d10322bd5706d742fade6063840880690678) 1.0.0 (@evenchange4)
+- [acad83d](https://github.com/evenchange4/remark-utils/commit/acad83d2bcd43ea79a85d51b99430c666171e1de) docs(README): add usage and api & fix typo (@evenchange4)
+- [6978ebd](https://github.com/evenchange4/remark-utils/commit/6978ebde154788adb62e8d9e5b3ba823aa43126a) docs(CHANGELOG): release 0.1.0 (@evenchange4)
 
+### v0.1.0 (2018/11/08 03:20 +00:00)
 - [a733afb](https://github.com/evenchange4/remark-utils/commit/a733afb5e3331aad3f2e0acc2d699b6d1d8ad818) 0.1.0 (@evenchange4)
 - [f19a506](https://github.com/evenchange4/remark-utils/commit/f19a506ec1f811ac8d3ea27070ee860c855219bd) chore: setup travis (@evenchange4)
 - [#1](https://github.com/evenchange4/remark-utils/pull/1) chore(deps): pin dependency eslint-plugin-import to 2.14.0 (#1) (@renovate[bot])
