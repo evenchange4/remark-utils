@@ -30,7 +30,7 @@
     "prismjs": "^1.15.0",
     "remark": "^10.0.0",
     "remark-grid-tables": "^1.1.1",
-    "remark-html": "^8.0.0",
+    "remark-html": "^9.0.0",
     "remark-strip-html": "^1.0.1"
   },
   "devDependencies": {
