@@ -28,31 +28,33 @@ exports[`Link 1`] = `
 exports[`List 1`] = `
 "<ul>
 <li>在行開頭使用 <code class=\\"language-text\\">+</code> <code class=\\"language-text\\">-</code> 或是 <code class=\\"language-text\\">*</code> 來建立清單</li>
-<li>
-<p>空兩個空白就可以產生子清單</p>
-<ul>
-<li>
-<p>當清單標記使用的字元不同，會強制建立新的清單</p>
-<ul>
+<li>空兩個空白就可以產生子清單<ul>
+<li>當清單標記使用的字元不同，會強制建立新的清單<ul>
 <li>Ac tristique libero volutpat at</li>
-</ul>
-<ul>
+</ul><ul>
 <li>Facilisis in pretium nisl aliquet</li>
-</ul>
-<ul>
+</ul><ul>
 <li>Nulla volutpat aliquam velit</li>
-</ul>
-</li>
-</ul>
-</li>
+</ul></li>
+</ul></li>
 <li>非常簡單！</li>
 </ul>
 <ol>
-<li>Lorem ipsum dolor sit amet</li>
-<li>Consectetur adipiscing elit</li>
-<li>Integer molestie lorem at massa</li>
-<li>foo</li>
-<li>bar</li>
+<li>
+<p>Lorem ipsum dolor sit amet</p>
+</li>
+<li>
+<p>Consectetur adipiscing elit</p>
+</li>
+<li>
+<p>Integer molestie lorem at massa</p>
+</li>
+<li>
+<p>foo</p>
+</li>
+<li>
+<p>bar</p>
+</li>
 </ol>
 "
 `;
