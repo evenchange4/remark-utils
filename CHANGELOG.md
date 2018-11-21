@@ -1,7 +1,10 @@
 ## Change Log
 
-### upcoming (2018/11/14 00:52 +00:00)
+### v1.0.1 (2018/11/21 01:20 +00:00)
 
+- [5a3f91e](https://github.com/evenchange4/remark-utils/commit/5a3f91ebfae89919aabf7699cd6499d42443c278) 1.0.1 (@evenchange4)
+- [732cc39](https://github.com/evenchange4/remark-utils/commit/732cc397cf031a9a9ab2db9ad113d026ef4dd524) chore: ncu update & use node 11.2.0 (@evenchange4)
+- [89453d5](https://github.com/evenchange4/remark-utils/commit/89453d5116d4f21bcee91c6ac7793a9be398c143) chore: ncu update (@evenchange4)
 - [#2](https://github.com/evenchange4/remark-utils/pull/2) chore(deps): update dependency flow-bin to v0.86.0 (#2) (@renovate[bot])
 - [812a4a1](https://github.com/evenchange4/remark-utils/commit/812a4a1c33f3d3a9614b4afe05736d218dfdb9f6) chore: remove useless npm scripts (@evenchange4)
 - [1500194](https://github.com/evenchange4/remark-utils/commit/1500194eebc7168e5ed3001fa403967bcad52126) docs(CHANGELOG): release 1.0 (@evenchange4)
