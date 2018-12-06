@@ -1,5 +1,5 @@
 [ignore]
-.*/node_modules/.*
+.*/node_modules/elasticlunr/.*
 <PROJECT_ROOT>/es/.*
 <PROJECT_ROOT>/lib/.*
 

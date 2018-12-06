@@ -1,7 +1,7 @@
 sudo: false
 language: node_js
 node_js:
-  - '11.2.0'
+  - '11.3.0'
 
 env:
   global:
@@ -20,12 +20,11 @@ install:
 script:
   - yarn run eslint
   - yarn run test
-  - ./tasks/flow-coverage.sh
-  - mv coverage coverage-upload # Note: it will be removed when nwb build
+  - yarn run flow-coverage
   - yarn run build
 
 after_success:
-  - ./node_modules/.bin/codecov -f ./coverage-upload/clover.xml
+  - ./node_modules/.bin/codecov
 
 deploy:
   - provider: npm
