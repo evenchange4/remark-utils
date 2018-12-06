@@ -1,5 +1,12 @@
 ## Change Log
 
+### v1.0.2 (2018/12/06 06:05 +00:00)
+
+- [f234563](https://github.com/evenchange4/remark-utils/commit/f2345637f1edcb38709cbae6676e15caecdac1e8) 1.0.2 (@evenchange4)
+- [#16](https://github.com/evenchange4/remark-utils/pull/16) refactor: introduce hsu-scripts (#16) (@evenchange4)
+- [#11](https://github.com/evenchange4/remark-utils/pull/11) chore(deps): update dependency lint-staged to v8.1.0 (#11) (@renovate[bot])
+- [f9ac361](https://github.com/evenchange4/remark-utils/commit/f9ac361456fbb1711b81c5dd6cb167707ebb753f) docs(CHANGELOG): release 1.0.1 (@evenchange4)
+
 ### v1.0.1 (2018/11/21 01:20 +00:00)
 
 - [5a3f91e](https://github.com/evenchange4/remark-utils/commit/5a3f91ebfae89919aabf7699cd6499d42443c278) 1.0.1 (@evenchange4)
