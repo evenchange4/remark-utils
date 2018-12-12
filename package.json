@@ -1,7 +1,6 @@
 {
   "name": "remark-utils",
   "version": "1.0.2",
-  "description": "remark-utils",
   "main": "lib/index.js",
   "module": "es/index.js",
   "sideEffects": false,
@@ -14,7 +13,7 @@
     "test": "NODE_ENV='test' TZ='UTC' jest --coverage --runInBand",
     "test:watch": "npm run test -- --watch",
     "flow": "flow",
-    "flow-coverage": "hsu-scripts flow --threshold 85",
+    "flow-coverage": "hsu-scripts flow --threshold 86",
     "eslint": "eslint ./",
     "format": "prettier --write '**/*.{js,json,md,css,yaml,yml}' '*.{js,json,md,css,yaml,yml}'",
     "changelog": "github-changes -o evenchange4 -r remark-utils -b master -f ./CHANGELOG.md --order-semver --use-commit-body"
@@ -22,7 +21,7 @@
   "dependencies": {
     "elasticlunr": "^0.9.5",
     "gatsby-remark-autolink-headers": "^2.0.12",
-    "gatsby-remark-prismjs": "^3.1.3",
+    "gatsby-remark-prismjs": "^3.1.4",
     "prismjs": "^1.15.0",
     "remark": "^10.0.1",
     "remark-grid-tables": "^1.2.0",
@@ -34,21 +33,13 @@
     "eslint": "5.10.0",
     "flow-bin": "0.88.0",
     "github-changes": "1.1.2",
+    "glob": "7.1.3",
     "hsu-scripts": "0.2.2",
     "husky": "1.2.0",
     "jest": "23.6.0",
     "lint-staged": "8.1.0",
     "prettier": "1.15.3"
   },
-  "author": "Michael Hsu <evenchange4@gmail.com>",
-  "homepage": "https://github.com/evenchange4/remark-utils#readme",
-  "license": "MIT",
-  "repository": "https://github.com/evenchange4/remark-utils",
-  "keywords": [
-    "remark",
-    "remark-utils",
-    "markdown"
-  ],
   "jest": {
     "collectCoverageFrom": [
       "src/**/*.{js,jsx}",
@@ -65,9 +56,9 @@
     "coverageThreshold": {
       "global": {
         "branches": 100,
-        "functions": 78,
-        "lines": 71,
-        "statements": 70
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
       }
     }
   },
@@ -91,5 +82,22 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
+  },
+  "description": "Reusable utils to build markdown service power by remarkjs and elasticlunr.",
+  "author": "Michael Hsu <evenchange4@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "remark",
+    "remark-utils",
+    "markdown"
+  ],
+  "bugs": {
+    "url": "https://github.com/evenchange4/remark-utils/issues",
+    "email": "evenchange4@gmail.com"
+  },
+  "homepage": "https://github.com/evenchange4/remark-utils#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evenchange4/remark-utils.git"
   }
 }
