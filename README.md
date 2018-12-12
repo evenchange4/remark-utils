@@ -67,7 +67,7 @@ const results = idx
   }));
 ```
 
-> Check the [Query from Index](https://github.com/weixsong/elasticlunr.js#5-query-from-index) section for more details.
+> Check the [tests](./src/__tests__/mdToElasticlunrIndex.test.js) and [Query from Index](https://github.com/weixsong/elasticlunr.js#5-query-from-index) section for more details.
 
 ## API
 
@@ -82,7 +82,6 @@ const results = idx
 
 ```bash
 $ yarn install --pure-lockfile
-$ npm start
 ```
 
 ## Test

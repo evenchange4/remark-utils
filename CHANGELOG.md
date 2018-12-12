@@ -1,5 +1,14 @@
 ## Change Log
 
+### upcoming (2018/12/12 01:47 +00:00)
+
+- [#21](https://github.com/evenchange4/remark-utils/pull/21) test: add mdToElasticlunrIndex test & use node 11.4.0 (#21) (@evenchange4)
+- [#20](https://github.com/evenchange4/remark-utils/pull/20) chore(deps): update dependency flow-bin to v0.88.0 (#20) (@renovate[bot])
+- [#19](https://github.com/evenchange4/remark-utils/pull/19) chore(deps): update dependency hsu-scripts to v0.2.2 (#19) (@renovate[bot])
+- [#18](https://github.com/evenchange4/remark-utils/pull/18) chore(deps): update dependency hsu-scripts to v0.2.1 (#18) (@renovate[bot])
+- [#17](https://github.com/evenchange4/remark-utils/pull/17) chore(deps): update dependency eslint to v5.10.0 (#17) (@renovate[bot])
+- [f742c29](https://github.com/evenchange4/remark-utils/commit/f742c29125683cc67891217a383520b2e4c5a562) docs(CHANGELOG): release 1.0.2 (@evenchange4)
+
 ### v1.0.2 (2018/12/06 06:05 +00:00)
 
 - [f234563](https://github.com/evenchange4/remark-utils/commit/f2345637f1edcb38709cbae6676e15caecdac1e8) 1.0.2 (@evenchange4)
