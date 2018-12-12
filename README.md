@@ -77,7 +77,7 @@ const results = idx
 
 ## Development
 
-- node 11.3.0
+- node 11.4.0
 - yarn 1.12.3
 
 ```bash
