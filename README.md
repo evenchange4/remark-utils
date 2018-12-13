@@ -75,9 +75,19 @@ const results = idx
 
 [src/utils/defaultOptions.js](./src/utils/defaultOptions.js)
 
-### Use with lazysizes
+## Use with lazysizes
 
 ```js
+// Server side
+const html = mdToHtml(`raw markdown`, {
+  lazysizes: {
+    base64: {
+      '../images/AWS_Icons-300x200.png': 'data:image/png;base64,mock',
+    },
+    srcAttr: 'data-src',
+  },
+});
+
 // Client side
 import('lazysizes').then(({ default: lazysizes }) => {
   lazysizes.init();
