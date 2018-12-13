@@ -77,6 +77,13 @@ const results = idx
 
 ### Use with lazysizes
 
+```js
+// Client side
+import('lazysizes').then(({ default: lazysizes }) => {
+  lazysizes.init();
+});
+```
+
 - https://github.com/aFarkas/lazysizes
 
 ## Development

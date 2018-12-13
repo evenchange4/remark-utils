@@ -16,7 +16,7 @@ export default function attacher({ base64, srcAttr }: Options) {
 
     if (inline) {
       node.data = {
-        hProperties: { [srcAttr]: node.url },
+        hProperties: { [srcAttr]: node.url, class: 'lazyload' },
       };
       node.url = inline;
     }
