@@ -11,4 +11,5 @@ it('should expose utils functions', () => {
   expect(Modules).toHaveProperty('defaultOptions');
   expect(Modules).toHaveProperty('extractIndexingFromMd');
   expect(Modules).toHaveProperty('remarkIndexing');
+  expect(Modules).toHaveProperty('remarkLazysizes');
 });
