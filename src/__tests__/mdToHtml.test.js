@@ -67,6 +67,30 @@ it('Image', () => {
   ).toMatchSnapshot();
 });
 
+it('Image with lazysizes', () => {
+  expect(
+    mdToHtml(
+      `
+![AWS_Icons-300x200.png](../images/AWS_Icons-300x200.png 'aws')
+![react.png](../images/react.png 'react')
+
+![Alt text][id]
+使用參考，可以在稍後的文件中再定義圖片網址
+
+[id]: https://octodex.github.com/images/dojocat.jpg 'The Dojocat'
+`,
+      {
+        lazysizes: {
+          base64: {
+            '../images/AWS_Icons-300x200.png': 'data:image/png;base64,mock',
+          },
+          srcAttr: 'data-src',
+        },
+      },
+    ),
+  ).toMatchSnapshot();
+});
+
 it('code', () => {
   expect(
     mdToHtml(`

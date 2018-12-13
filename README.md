@@ -75,6 +75,10 @@ const results = idx
 
 [src/utils/defaultOptions.js](./src/utils/defaultOptions.js)
 
+### Use with lazysizes
+
+- https://github.com/aFarkas/lazysizes
+
 ## Development
 
 - node 11.4.0

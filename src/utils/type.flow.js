@@ -16,3 +16,12 @@ export type Child = {
 export type Ast = {
   children: Array<Child>,
 };
+
+export type Tree = {
+  type: string,
+  children: Array<Tree>,
+  position: {
+    start: any,
+    end: any,
+  },
+};

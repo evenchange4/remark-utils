@@ -11,4 +11,7 @@ export default {
     aliases: {},
     noInlineHighlight: false,
   },
+  lazysizes: {
+    srcAttr: 'data-src',
+  },
 };

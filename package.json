@@ -13,7 +13,7 @@
     "test": "NODE_ENV='test' TZ='UTC' jest --coverage --runInBand",
     "test:watch": "npm run test -- --watch",
     "flow": "flow",
-    "flow-coverage": "hsu-scripts flow --threshold 86",
+    "flow-coverage": "hsu-scripts flow --threshold 85",
     "eslint": "eslint ./",
     "format": "prettier --write '**/*.{js,json,md,css,yaml,yml}' '*.{js,json,md,css,yaml,yml}'",
     "changelog": "github-changes -o evenchange4 -r remark-utils -b master -f ./CHANGELOG.md --order-semver --use-commit-body"
@@ -26,7 +26,8 @@
     "remark": "^10.0.1",
     "remark-grid-tables": "^1.2.0",
     "remark-html": "^9.0.0",
-    "remark-strip-html": "^1.0.1"
+    "remark-strip-html": "^1.0.1",
+    "unist-util-visit": "^1.4.0"
   },
   "devDependencies": {
     "codecov": "3.1.0",
