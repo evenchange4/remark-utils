@@ -1,7 +1,15 @@
 ## Change Log
 
-### upcoming (2018/12/12 01:47 +00:00)
+### v1.1.0 (2018/12/13 08:58 +00:00)
 
+- [ee3e4e3](https://github.com/evenchange4/remark-utils/commit/ee3e4e3c449697f3da9ae461032af6bfef89d590) 1.1.0 (@evenchange4)
+- [#23](https://github.com/evenchange4/remark-utils/pull/23) feat(image): add remark-lazysizes (#23) (@evenchange4)
+- [#22](https://github.com/evenchange4/remark-utils/pull/22) chore(deps): update dependency hsu-scripts to v0.2.3 (#22) (@renovate[bot])
+
+### v1.0.3 (2018/12/12 01:48 +00:00)
+
+- [4c153e9](https://github.com/evenchange4/remark-utils/commit/4c153e9f4eace2ba7811eec1c116c8352d12953d) 1.0.3 (@evenchange4)
+- [0e14e30](https://github.com/evenchange4/remark-utils/commit/0e14e30d9a6242c8b212b6b229a66f8ecd17b635) docs: update readme (@evenchange4)
 - [#21](https://github.com/evenchange4/remark-utils/pull/21) test: add mdToElasticlunrIndex test & use node 11.4.0 (#21) (@evenchange4)
 - [#20](https://github.com/evenchange4/remark-utils/pull/20) chore(deps): update dependency flow-bin to v0.88.0 (#20) (@renovate[bot])
 - [#19](https://github.com/evenchange4/remark-utils/pull/19) chore(deps): update dependency hsu-scripts to v0.2.2 (#19) (@renovate[bot])
