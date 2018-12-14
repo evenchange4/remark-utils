@@ -34,7 +34,7 @@ export type Base64Image = {
   format: string,
   base64: string,
 };
-export type Base64Mapper = (imagePath: string) => Base64Image;
+export type Base64Mapper = (imagePath: string) => ?Base64Image;
 
 export type Option = {
   autolinkHeaders?: {
