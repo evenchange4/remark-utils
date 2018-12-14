@@ -13,7 +13,7 @@
     "test": "NODE_ENV='test' TZ='UTC' jest --coverage --runInBand",
     "test:watch": "npm run test -- --watch",
     "flow": "flow",
-    "flow-coverage": "hsu-scripts flow --threshold 85",
+    "flow-coverage": "hsu-scripts flow --threshold 87",
     "eslint": "eslint ./",
     "format": "prettier --write '**/*.{js,json,md,css,yaml,yml}' '*.{js,json,md,css,yaml,yml}'",
     "changelog": "github-changes -o evenchange4 -r remark-utils -b master -f ./CHANGELOG.md --order-semver --use-commit-body"

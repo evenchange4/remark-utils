@@ -68,6 +68,16 @@ it('Image', () => {
 });
 
 it('Image with lazysizes', () => {
+  const base64Json = {
+    '../images/AWS_Icons-300x200.png': {
+      imagePath: '../images/AWS_Icons-300x200.png',
+      width: 300,
+      height: 200,
+      format: 'png',
+      base64: 'data:image/png;base64,mock',
+    },
+  };
+
   expect(
     mdToHtml(
       `
@@ -81,9 +91,7 @@ it('Image with lazysizes', () => {
 `,
       {
         lazysizes: {
-          base64: {
-            '../images/AWS_Icons-300x200.png': 'data:image/png;base64,mock',
-          },
+          base64Mapper: (imagepath: string) => base64Json[imagepath],
           srcAttr: 'data-src',
         },
       },
