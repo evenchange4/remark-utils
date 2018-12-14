@@ -94,7 +94,7 @@ const html = mdToHtml(
   `![AWS_Icons-300x200.png](../images/AWS_Icons-300x200.png 'aws')`,
   {
     lazysizes: {
-      base64Mapper: (imagepath: string) => base64Json[imagepath],
+      base64Mapper: (imagePath: string) => base64Json[imagePath],
       srcAttr: 'data-src',
     },
   },

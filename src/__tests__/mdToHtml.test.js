@@ -91,7 +91,7 @@ it('Image with lazysizes', () => {
 `,
       {
         lazysizes: {
-          base64Mapper: (imagepath: string) => base64Json[imagepath],
+          base64Mapper: (imagePath: string) => base64Json[imagePath],
           srcAttr: 'data-src',
         },
       },
