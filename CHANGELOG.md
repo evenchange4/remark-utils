@@ -1,5 +1,17 @@
 ## Change Log
 
+### v1.2.1 (2018/12/14 06:45 +00:00)
+
+- [7061028](https://github.com/evenchange4/remark-utils/commit/7061028b1981f222c94b449b274a432ecdad8531) 1.2.1 (@evenchange4)
+- [6490c42](https://github.com/evenchange4/remark-utils/commit/6490c427713905391056f9d3daed66b76cdd46b9) fix(Base64Mapper): update flow type (@evenchange4)
+- [d4f704c](https://github.com/evenchange4/remark-utils/commit/d4f704c67d81a275c4e5cd05a97db4ebab867a43) fix: typo imagePath (@evenchange4)
+
+### v1.2.0 (2018/12/14 04:35 +00:00)
+
+- [3cd7e89](https://github.com/evenchange4/remark-utils/commit/3cd7e897c66e7206ccc95c0cbbd15ca8ae67d84f) 1.2.0 (@evenchange4)
+- [#26](https://github.com/evenchange4/remark-utils/pull/26) fix(lazysizes): alter api of mdToHtml from base64: Object -> base64Mapper function (#26) (@evenchange4)
+- [3bbb47b](https://github.com/evenchange4/remark-utils/commit/3bbb47bfe4771504bea9600150885a2258b80d4f) docs(CHANGELOG): release 1.1.0 (@evenchange4)
+
 ### v1.1.0 (2018/12/13 08:58 +00:00)
 
 - [ee3e4e3](https://github.com/evenchange4/remark-utils/commit/ee3e4e3c449697f3da9ae461032af6bfef89d590) 1.1.0 (@evenchange4)
