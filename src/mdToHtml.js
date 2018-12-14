@@ -6,8 +6,9 @@ import remarkPrismjs from 'gatsby-remark-prismjs';
 import remarkAutolink from 'gatsby-remark-autolink-headers';
 import defaultOptions from './utils/defaultOptions';
 import remarkLazysizes from './utils/remark-lazysizes';
+import { type Option } from './utils/type.flow';
 
-const mdToHtml = (markdownContent: string, options: *): string => {
+const mdToHtml = (markdownContent: string, options?: Option): string => {
   const { autolinkHeaders, prismjs, lazysizes } = {
     ...defaultOptions,
     ...options,

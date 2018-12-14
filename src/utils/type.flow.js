@@ -25,3 +25,30 @@ export type Tree = {
     end: any,
   },
 };
+
+// Note: from remark-utils
+export type Base64Image = {
+  imagePath: string,
+  width: number,
+  height: number,
+  format: string,
+  base64: string,
+};
+export type Base64Mapper = (imagePath: string) => Base64Image;
+
+export type Option = {
+  autolinkHeaders?: {
+    icon: string,
+    className: string,
+  },
+  prismjs?: {
+    classPrefix: string,
+    inlineCodeMarker: ?string,
+    aliases: Object,
+    noInlineHighlight: boolean,
+  },
+  lazysizes?: {
+    srcAttr: string,
+    base64Mapper?: Base64Mapper,
+  },
+};

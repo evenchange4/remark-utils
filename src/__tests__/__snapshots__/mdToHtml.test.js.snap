@@ -18,7 +18,7 @@ exports[`Image 1`] = `
 `;
 
 exports[`Image with lazysizes 1`] = `
-"<p><img src=\\"data:image/png;base64,mock\\" alt=\\"AWS_Icons-300x200.png\\" title=\\"aws\\" data-src=\\"../images/AWS_Icons-300x200.png\\" class=\\"lazyload\\">
+"<p><div style=\\"width: 100%; padding-bottom: 66.66666666666666%; height: 0; position: relative;\\"><img src=\\"data:image/png;base64,mock\\" alt=\\"AWS_Icons-300x200.png\\" title=\\"aws\\" data-src=\\"../images/AWS_Icons-300x200.png\\" class=\\"lazyload\\" style=\\"position: absolute; width: 100%;\\"></div>
 <img src=\\"../images/react.png\\" alt=\\"react.png\\" title=\\"react\\"></p>
 <p><img src=\\"https://octodex.github.com/images/dojocat.jpg\\" alt=\\"Alt text\\" title=\\"The Dojocat\\">
 使用參考，可以在稍後的文件中再定義圖片網址</p>
