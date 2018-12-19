@@ -40,14 +40,26 @@ export default function attacher({ base64Mapper, srcAttr }: Options) {
       };
       // ref: https://github.com/verlok/lazyload#occupy-vertical-space-and-maintain-ratio
       const ratio = (base64Image.height / base64Image.width) * 100;
+      const wrapperNode = {
+        type: 'element',
+        tagName: 'div',
+
+        data: {
+          hProperties: {
+            style: `width: 100%; padding-bottom: ${ratio}%; height: 0; position: relative;`,
+          },
+        },
+        children: [imageNode],
+      };
+
       node.type = 'element';
       node.tagName = 'div';
       node.data = {
         hProperties: {
-          style: `width: 100%; padding-bottom: ${ratio}%; height: 0; position: relative;`,
+          style: `max-width: ${base64Image.width}px;`,
         },
       };
-      node.children = [imageNode];
+      node.children = [wrapperNode];
     }
   }
 

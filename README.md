@@ -100,14 +100,15 @@ const html = mdToHtml(
   },
 );
 // Output html:
-<div style="width: 100%; padding-bottom: 66.66%; height: 0; position: relative;">
-  <img
-    src="data:image/png;base64,mock"
-    alt="AWS_Icons-300x200.png"
-    title="aws" data-src="../images/AWS_Icons-300x200.png" class="lazyload"
-    style="position: absolute; width: 100%;">
+<div style="max-width: 300px;">
+  <div style="width: 100%; padding-bottom: 66.66%; height: 0; position: relative;">
+    <img
+      src="data:image/png;base64,mock"
+      alt="AWS_Icons-300x200.png"
+      title="aws" data-src="../images/AWS_Icons-300x200.png" class="lazyload"
+      style="position: absolute; width: 100%;">
+  </div>
 </div>
-
 
 // Client side
 import('lazysizes').then(({ default: lazysizes }) => {
@@ -119,7 +120,7 @@ import('lazysizes').then(({ default: lazysizes }) => {
 
 ## Development
 
-- node 11.4.0
+- node 11.5.0
 - yarn 1.12.3
 
 ```bash
