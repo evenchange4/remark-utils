@@ -1,59 +1,67 @@
-## Change Log
+## Unreleased (2018-12-20)
 
-### v1.2.1 (2018/12/14 06:45 +00:00)
+## <small>1.2.2 (2018-12-19)</small>
 
-- [7061028](https://github.com/evenchange4/remark-utils/commit/7061028b1981f222c94b449b274a432ecdad8531) 1.2.1 (@evenchange4)
-- [6490c42](https://github.com/evenchange4/remark-utils/commit/6490c427713905391056f9d3daed66b76cdd46b9) fix(Base64Mapper): update flow type (@evenchange4)
-- [d4f704c](https://github.com/evenchange4/remark-utils/commit/d4f704c67d81a275c4e5cd05a97db4ebab867a43) fix: typo imagePath (@evenchange4)
+- 1.2.2 ([5e4f3db](https://github.com/evenchange4/remark-utils/commit/5e4f3db))
+- fix(mdToHtml): add max-witdh wrapper for small image displaying (#28) ([71f17a0](https://github.com/evenchange4/remark-utils/commit/71f17a0)), closes [#28](https://github.com/evenchange4/remark-utils/issues/28)
+- chore(deps): update dependency husky to v1.3.0 (#27) ([e93b664](https://github.com/evenchange4/remark-utils/commit/e93b664)), closes [#27](https://github.com/evenchange4/remark-utils/issues/27)
+- docs(CHANGELOG): release 1.2.1 ([e6beb2e](https://github.com/evenchange4/remark-utils/commit/e6beb2e))
+- docs(README): update output html example ([9d828c1](https://github.com/evenchange4/remark-utils/commit/9d828c1))
 
-### v1.2.0 (2018/12/14 04:35 +00:00)
+## <small>1.2.1 (2018-12-14)</small>
 
-- [3cd7e89](https://github.com/evenchange4/remark-utils/commit/3cd7e897c66e7206ccc95c0cbbd15ca8ae67d84f) 1.2.0 (@evenchange4)
-- [#26](https://github.com/evenchange4/remark-utils/pull/26) fix(lazysizes): alter api of mdToHtml from base64: Object -> base64Mapper function (#26) (@evenchange4)
-- [3bbb47b](https://github.com/evenchange4/remark-utils/commit/3bbb47bfe4771504bea9600150885a2258b80d4f) docs(CHANGELOG): release 1.1.0 (@evenchange4)
+- 1.2.1 ([7061028](https://github.com/evenchange4/remark-utils/commit/7061028))
+- fix: typo imagePath ([d4f704c](https://github.com/evenchange4/remark-utils/commit/d4f704c))
+- fix(Base64Mapper): update flow type ([6490c42](https://github.com/evenchange4/remark-utils/commit/6490c42))
 
-### v1.1.0 (2018/12/13 08:58 +00:00)
+## 1.2.0 (2018-12-14)
 
-- [ee3e4e3](https://github.com/evenchange4/remark-utils/commit/ee3e4e3c449697f3da9ae461032af6bfef89d590) 1.1.0 (@evenchange4)
-- [#23](https://github.com/evenchange4/remark-utils/pull/23) feat(image): add remark-lazysizes (#23) (@evenchange4)
-- [#22](https://github.com/evenchange4/remark-utils/pull/22) chore(deps): update dependency hsu-scripts to v0.2.3 (#22) (@renovate[bot])
+- 1.2.0 ([3cd7e89](https://github.com/evenchange4/remark-utils/commit/3cd7e89))
+- fix(lazysizes): alter api of mdToHtml from base64: Object -> base64Mapper function (#26) ([d8ab5f1](https://github.com/evenchange4/remark-utils/commit/d8ab5f1)), closes [#26](https://github.com/evenchange4/remark-utils/issues/26)
+- docs(CHANGELOG): release 1.1.0 ([3bbb47b](https://github.com/evenchange4/remark-utils/commit/3bbb47b))
 
-### v1.0.3 (2018/12/12 01:48 +00:00)
+## 1.1.0 (2018-12-13)
 
-- [4c153e9](https://github.com/evenchange4/remark-utils/commit/4c153e9f4eace2ba7811eec1c116c8352d12953d) 1.0.3 (@evenchange4)
-- [0e14e30](https://github.com/evenchange4/remark-utils/commit/0e14e30d9a6242c8b212b6b229a66f8ecd17b635) docs: update readme (@evenchange4)
-- [#21](https://github.com/evenchange4/remark-utils/pull/21) test: add mdToElasticlunrIndex test & use node 11.4.0 (#21) (@evenchange4)
-- [#20](https://github.com/evenchange4/remark-utils/pull/20) chore(deps): update dependency flow-bin to v0.88.0 (#20) (@renovate[bot])
-- [#19](https://github.com/evenchange4/remark-utils/pull/19) chore(deps): update dependency hsu-scripts to v0.2.2 (#19) (@renovate[bot])
-- [#18](https://github.com/evenchange4/remark-utils/pull/18) chore(deps): update dependency hsu-scripts to v0.2.1 (#18) (@renovate[bot])
-- [#17](https://github.com/evenchange4/remark-utils/pull/17) chore(deps): update dependency eslint to v5.10.0 (#17) (@renovate[bot])
-- [f742c29](https://github.com/evenchange4/remark-utils/commit/f742c29125683cc67891217a383520b2e4c5a562) docs(CHANGELOG): release 1.0.2 (@evenchange4)
+- 1.1.0 ([ee3e4e3](https://github.com/evenchange4/remark-utils/commit/ee3e4e3))
+- feat(image): add remark-lazysizes (#23) ([98b3b01](https://github.com/evenchange4/remark-utils/commit/98b3b01)), closes [#23](https://github.com/evenchange4/remark-utils/issues/23)
+- chore(deps): update dependency hsu-scripts to v0.2.3 (#22) ([ada6f32](https://github.com/evenchange4/remark-utils/commit/ada6f32)), closes [#22](https://github.com/evenchange4/remark-utils/issues/22)
 
-### v1.0.2 (2018/12/06 06:05 +00:00)
+## <small>1.0.3 (2018-12-12)</small>
 
-- [f234563](https://github.com/evenchange4/remark-utils/commit/f2345637f1edcb38709cbae6676e15caecdac1e8) 1.0.2 (@evenchange4)
-- [#16](https://github.com/evenchange4/remark-utils/pull/16) refactor: introduce hsu-scripts (#16) (@evenchange4)
-- [#11](https://github.com/evenchange4/remark-utils/pull/11) chore(deps): update dependency lint-staged to v8.1.0 (#11) (@renovate[bot])
-- [f9ac361](https://github.com/evenchange4/remark-utils/commit/f9ac361456fbb1711b81c5dd6cb167707ebb753f) docs(CHANGELOG): release 1.0.1 (@evenchange4)
+- 1.0.3 ([4c153e9](https://github.com/evenchange4/remark-utils/commit/4c153e9))
+- docs: update readme ([0e14e30](https://github.com/evenchange4/remark-utils/commit/0e14e30))
+- docs(CHANGELOG): release 1.0.2 ([f742c29](https://github.com/evenchange4/remark-utils/commit/f742c29))
+- test: add mdToElasticlunrIndex test & use node 11.4.0 (#21) ([e280cb3](https://github.com/evenchange4/remark-utils/commit/e280cb3)), closes [#21](https://github.com/evenchange4/remark-utils/issues/21)
+- chore(deps): update dependency eslint to v5.10.0 (#17) ([2c07e77](https://github.com/evenchange4/remark-utils/commit/2c07e77)), closes [#17](https://github.com/evenchange4/remark-utils/issues/17)
+- chore(deps): update dependency flow-bin to v0.88.0 (#20) ([148697b](https://github.com/evenchange4/remark-utils/commit/148697b)), closes [#20](https://github.com/evenchange4/remark-utils/issues/20)
+- chore(deps): update dependency hsu-scripts to v0.2.1 (#18) ([c47e0cc](https://github.com/evenchange4/remark-utils/commit/c47e0cc)), closes [#18](https://github.com/evenchange4/remark-utils/issues/18)
+- chore(deps): update dependency hsu-scripts to v0.2.2 (#19) ([faea1da](https://github.com/evenchange4/remark-utils/commit/faea1da)), closes [#19](https://github.com/evenchange4/remark-utils/issues/19)
 
-### v1.0.1 (2018/11/21 01:20 +00:00)
+## <small>1.0.2 (2018-12-06)</small>
 
-- [5a3f91e](https://github.com/evenchange4/remark-utils/commit/5a3f91ebfae89919aabf7699cd6499d42443c278) 1.0.1 (@evenchange4)
-- [732cc39](https://github.com/evenchange4/remark-utils/commit/732cc397cf031a9a9ab2db9ad113d026ef4dd524) chore: ncu update & use node 11.2.0 (@evenchange4)
-- [89453d5](https://github.com/evenchange4/remark-utils/commit/89453d5116d4f21bcee91c6ac7793a9be398c143) chore: ncu update (@evenchange4)
-- [#2](https://github.com/evenchange4/remark-utils/pull/2) chore(deps): update dependency flow-bin to v0.86.0 (#2) (@renovate[bot])
-- [812a4a1](https://github.com/evenchange4/remark-utils/commit/812a4a1c33f3d3a9614b4afe05736d218dfdb9f6) chore: remove useless npm scripts (@evenchange4)
-- [1500194](https://github.com/evenchange4/remark-utils/commit/1500194eebc7168e5ed3001fa403967bcad52126) docs(CHANGELOG): release 1.0 (@evenchange4)
+- 1.0.2 ([f234563](https://github.com/evenchange4/remark-utils/commit/f234563))
+- refactor: introduce hsu-scripts (#16) ([33c88a3](https://github.com/evenchange4/remark-utils/commit/33c88a3)), closes [#16](https://github.com/evenchange4/remark-utils/issues/16)
+- chore(deps): update dependency lint-staged to v8.1.0 (#11) ([c5b51cc](https://github.com/evenchange4/remark-utils/commit/c5b51cc)), closes [#11](https://github.com/evenchange4/remark-utils/issues/11)
+- docs(CHANGELOG): release 1.0.1 ([f9ac361](https://github.com/evenchange4/remark-utils/commit/f9ac361))
 
-### v1.0.0 (2018/11/08 04:19 +00:00)
+## <small>1.0.1 (2018-11-21)</small>
 
-- [aab5d10](https://github.com/evenchange4/remark-utils/commit/aab5d10322bd5706d742fade6063840880690678) 1.0.0 (@evenchange4)
-- [acad83d](https://github.com/evenchange4/remark-utils/commit/acad83d2bcd43ea79a85d51b99430c666171e1de) docs(README): add usage and api & fix typo (@evenchange4)
-- [6978ebd](https://github.com/evenchange4/remark-utils/commit/6978ebde154788adb62e8d9e5b3ba823aa43126a) docs(CHANGELOG): release 0.1.0 (@evenchange4)
+- 1.0.1 ([5a3f91e](https://github.com/evenchange4/remark-utils/commit/5a3f91e))
+- chore: ncu update ([89453d5](https://github.com/evenchange4/remark-utils/commit/89453d5))
+- chore: ncu update & use node 11.2.0 ([732cc39](https://github.com/evenchange4/remark-utils/commit/732cc39))
+- chore: remove useless npm scripts ([812a4a1](https://github.com/evenchange4/remark-utils/commit/812a4a1))
+- chore(deps): update dependency flow-bin to v0.86.0 (#2) ([8564d8b](https://github.com/evenchange4/remark-utils/commit/8564d8b)), closes [#2](https://github.com/evenchange4/remark-utils/issues/2)
+- docs(CHANGELOG): release 1.0 ([1500194](https://github.com/evenchange4/remark-utils/commit/1500194))
 
-### v0.1.0 (2018/11/08 03:20 +00:00)
+## 1.0.0 (2018-11-08)
 
-- [a733afb](https://github.com/evenchange4/remark-utils/commit/a733afb5e3331aad3f2e0acc2d699b6d1d8ad818) 0.1.0 (@evenchange4)
-- [f19a506](https://github.com/evenchange4/remark-utils/commit/f19a506ec1f811ac8d3ea27070ee860c855219bd) chore: setup travis (@evenchange4)
-- [#1](https://github.com/evenchange4/remark-utils/pull/1) chore(deps): pin dependency eslint-plugin-import to 2.14.0 (#1) (@renovate[bot])
-- [94860c1](https://github.com/evenchange4/remark-utils/commit/94860c1f9ccc2fe172ec933caf2315895f1415ad) feat: init (@evenchange4)
+- 1.0.0 ([aab5d10](https://github.com/evenchange4/remark-utils/commit/aab5d10))
+- docs(CHANGELOG): release 0.1.0 ([6978ebd](https://github.com/evenchange4/remark-utils/commit/6978ebd))
+- docs(README): add usage and api & fix typo ([acad83d](https://github.com/evenchange4/remark-utils/commit/acad83d))
+
+## 0.1.0 (2018-11-08)
+
+- 0.1.0 ([a733afb](https://github.com/evenchange4/remark-utils/commit/a733afb))
+- chore: setup travis ([f19a506](https://github.com/evenchange4/remark-utils/commit/f19a506))
+- chore(deps): pin dependency eslint-plugin-import to 2.14.0 (#1) ([fac5c1d](https://github.com/evenchange4/remark-utils/commit/fac5c1d)), closes [#1](https://github.com/evenchange4/remark-utils/issues/1)
+- feat: init ([94860c1](https://github.com/evenchange4/remark-utils/commit/94860c1))
