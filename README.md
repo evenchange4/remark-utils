@@ -120,8 +120,8 @@ import('lazysizes').then(({ default: lazysizes }) => {
 
 ## Development
 
-- node 11.5.0
-- yarn 1.12.3
+- node 11.9.0
+- yarn 1.13.0
 
 ```bash
 $ yarn install --pure-lockfile

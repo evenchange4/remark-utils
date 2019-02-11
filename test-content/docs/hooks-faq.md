@@ -388,12 +388,9 @@ Traditionally, performance concerns around inline functions in React have been r
 
   ```js{2}
   // Will not change unless `a` or `b` changes
-  const memoizedCallback = useCallback(
-    () => {
-      doSomething(a, b);
-    },
-    [a, b],
-  );
+  const memoizedCallback = useCallback(() => {
+    doSomething(a, b);
+  }, [a, b]);
   ```
 
 - The [`useMemo` Hook](/docs/hooks-faq.html#how-to-memoize-calculations) makes it easier to control when individual children update, reducing the need for pure components.
@@ -459,13 +456,10 @@ function Form() {
     textRef.current = text; // Write it to the ref
   });
 
-  const handleSubmit = useCallback(
-    () => {
-      const currentText = textRef.current; // Read it from the ref
-      alert(currentText);
-    },
-    [textRef],
-  ); // Don't recreate handleSubmit like [text] would do
+  const handleSubmit = useCallback(() => {
+    const currentText = textRef.current; // Read it from the ref
+    alert(currentText);
+  }, [textRef]); // Don't recreate handleSubmit like [text] would do
 
   return (
     <>
@@ -482,12 +476,9 @@ This is a rather convoluted pattern but it shows that you can do this escape hat
 function Form() {
   const [text, updateText] = useState('');
   // Will be memoized even if `text` changes:
-  const handleSubmit = useEventCallback(
-    () => {
-      alert(text);
-    },
-    [text],
-  );
+  const handleSubmit = useEventCallback(() => {
+    alert(text);
+  }, [text]);
 
   return (
     <>
@@ -502,20 +493,14 @@ function useEventCallback(fn, dependencies) {
     throw new Error('Cannot call an event handler while rendering.');
   });
 
-  useLayoutEffect(
-    () => {
-      ref.current = fn;
-    },
-    [fn, ...dependencies],
-  );
+  useLayoutEffect(() => {
+    ref.current = fn;
+  }, [fn, ...dependencies]);
 
-  return useCallback(
-    () => {
-      const fn = ref.current;
-      return fn();
-    },
-    [ref],
-  );
+  return useCallback(() => {
+    const fn = ref.current;
+    return fn();
+  }, [ref]);
 }
 ```
 

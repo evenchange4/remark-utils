@@ -135,15 +135,12 @@ However, this may be overkill in some cases, like the subscription example from 
 To implement this, pass a second argument to `useEffect` that is the array of values that the effect depends on. Our updated example now looks like this:
 
 ```js
-useEffect(
-  () => {
-    const subscription = props.source.subscribe();
-    return () => {
-      subscription.unsubscribe();
-    };
-  },
-  [props.source],
-);
+useEffect(() => {
+  const subscription = props.source.subscribe();
+  return () => {
+    subscription.unsubscribe();
+  };
+}, [props.source]);
 ```
 
 Now the subscription will only be recreated when `props.source` changes.
@@ -257,12 +254,9 @@ function Counter({ initialCount }) {
 ### `useCallback`
 
 ```js
-const memoizedCallback = useCallback(
-  () => {
-    doSomething(a, b);
-  },
-  [a, b],
-);
+const memoizedCallback = useCallback(() => {
+  doSomething(a, b);
+}, [a, b]);
 ```
 
 Returns a [memoized](https://en.wikipedia.org/wiki/Memoization) callback.

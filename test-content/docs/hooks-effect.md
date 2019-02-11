@@ -434,12 +434,9 @@ componentDidUpdate(prevProps, prevState) {
 This requirement is common enough that it is built into the `useEffect` Hook API. You can tell React to _skip_ applying an effect if certain values haven't changed between re-renders. To do so, pass an array as an optional second argument to `useEffect`:
 
 ```js{3}
-useEffect(
-  () => {
-    document.title = `You clicked ${count} times`;
-  },
-  [count],
-); // Only re-run the effect if count changes
+useEffect(() => {
+  document.title = `You clicked ${count} times`;
+}, [count]); // Only re-run the effect if count changes
 ```
 
 In the example above, we pass `[count]` as the second argument. What does this mean? If the `count` is `5`, and then our component re-renders with `count` still equal to `5`, React will compare `[5]` from the previous render and `[5]` from the next render. Because all items in the array are the same (`5 === 5`), React would skip the effect. That's our optimization.
@@ -449,15 +446,12 @@ When we render with `count` updated to `6`, React will compare the items in the 
 This also works for effects that have a cleanup phase:
 
 ```js{6}
-useEffect(
-  () => {
-    ChatAPI.subscribeToFriendStatus(props.friend.id, handleStatusChange);
-    return () => {
-      ChatAPI.unsubscribeFromFriendStatus(props.friend.id, handleStatusChange);
-    };
-  },
-  [props.friend.id],
-); // Only re-subscribe if props.friend.id changes
+useEffect(() => {
+  ChatAPI.subscribeToFriendStatus(props.friend.id, handleStatusChange);
+  return () => {
+    ChatAPI.unsubscribeFromFriendStatus(props.friend.id, handleStatusChange);
+  };
+}, [props.friend.id]); // Only re-subscribe if props.friend.id changes
 ```
 
 In the future, the second argument might get added automatically by a build-time transformation.
