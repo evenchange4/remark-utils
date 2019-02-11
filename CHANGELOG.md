@@ -1,4 +1,27 @@
-## Unreleased (2018-12-20)
+## Unreleased (2019-02-11)
+
+## <small>1.2.3 (2019-02-11)</small>
+
+- 1.2.3 ([0aea31b](https://github.com/evenchange4/remark-utils/commit/0aea31b))
+- chore: ncu update & upgrade jest to use babel 7 & switch changelog tools ([13027dd](https://github.com/evenchange4/remark-utils/commit/13027dd))
+- chore(changelog): remove useless changelog tools prarms ([2a68874](https://github.com/evenchange4/remark-utils/commit/2a68874))
+- chore(deps): ncu update & use node 11.9.0 ([0b3e75d](https://github.com/evenchange4/remark-utils/commit/0b3e75d))
+- chore(deps): update dependency eslint to v5.12.0 (#30) ([57a3f8c](https://github.com/evenchange4/remark-utils/commit/57a3f8c)), closes [#30](https://github.com/evenchange4/remark-utils/issues/30)
+- chore(deps): update dependency eslint to v5.12.1 (#38) ([daead5c](https://github.com/evenchange4/remark-utils/commit/daead5c)), closes [#38](https://github.com/evenchange4/remark-utils/issues/38)
+- chore(deps): update dependency flow-bin to v0.90.0 (#35) ([a78f40a](https://github.com/evenchange4/remark-utils/commit/a78f40a)), closes [#35](https://github.com/evenchange4/remark-utils/issues/35)
+- chore(deps): update dependency flow-bin to v0.91.0 (#37) ([52db5a9](https://github.com/evenchange4/remark-utils/commit/52db5a9)), closes [#37](https://github.com/evenchange4/remark-utils/issues/37)
+- chore(deps): update dependency hsu-scripts to v1 (#32) ([d67bf7e](https://github.com/evenchange4/remark-utils/commit/d67bf7e)), closes [#32](https://github.com/evenchange4/remark-utils/issues/32)
+- chore(deps): update dependency husky to v1.3.1 (#31) ([74bdda1](https://github.com/evenchange4/remark-utils/commit/74bdda1)), closes [#31](https://github.com/evenchange4/remark-utils/issues/31)
+- chore(deps): update dependency jest to v24.0.0 (#43) ([fa0ad43](https://github.com/evenchange4/remark-utils/commit/fa0ad43)), closes [#43](https://github.com/evenchange4/remark-utils/issues/43)
+- chore(deps): update dependency jest to v24.0.0-alpha.10 (#33) ([74427d4](https://github.com/evenchange4/remark-utils/commit/74427d4)), closes [#33](https://github.com/evenchange4/remark-utils/issues/33)
+- chore(deps): update dependency jest to v24.0.0-alpha.11 (#34) ([5835863](https://github.com/evenchange4/remark-utils/commit/5835863)), closes [#34](https://github.com/evenchange4/remark-utils/issues/34)
+- chore(deps): update dependency jest to v24.0.0-alpha.12 (#36) ([7dd33d6](https://github.com/evenchange4/remark-utils/commit/7dd33d6)), closes [#36](https://github.com/evenchange4/remark-utils/issues/36)
+- chore(deps): update dependency jest to v24.0.0-alpha.13 (#41) ([b061246](https://github.com/evenchange4/remark-utils/commit/b061246)), closes [#41](https://github.com/evenchange4/remark-utils/issues/41)
+- chore(deps): update dependency jest to v24.0.0-alpha.15 (#42) ([2d15172](https://github.com/evenchange4/remark-utils/commit/2d15172)), closes [#42](https://github.com/evenchange4/remark-utils/issues/42)
+- chore(deps): update dependency lint-staged to v8.1.1 (#44) ([e526ee9](https://github.com/evenchange4/remark-utils/commit/e526ee9)), closes [#44](https://github.com/evenchange4/remark-utils/issues/44)
+- chore(deps): update dependency prettier to v1.16.0 (#39) ([d7b0b3a](https://github.com/evenchange4/remark-utils/commit/d7b0b3a)), closes [#39](https://github.com/evenchange4/remark-utils/issues/39)
+- chore(deps): update dependency prettier to v1.16.1 (#40) ([4379d20](https://github.com/evenchange4/remark-utils/commit/4379d20)), closes [#40](https://github.com/evenchange4/remark-utils/issues/40)
+- chore(deps): update dependency prettier to v1.16.2 (#45) ([5d2bd89](https://github.com/evenchange4/remark-utils/commit/5d2bd89)), closes [#45](https://github.com/evenchange4/remark-utils/issues/45)
 
 ## <small>1.2.2 (2018-12-19)</small>
 
