@@ -24,7 +24,7 @@
     "gatsby-remark-prismjs": "^3.2.4",
     "prismjs": "^1.15.0",
     "remark": "^10.0.1",
-    "remark-grid-tables": "^1.4.0",
+    "remark-grid-tables": "^2.0.0",
     "remark-html": "^9.0.0",
     "remark-strip-html": "^1.0.1",
     "unist-util-visit": "^1.4.0"
