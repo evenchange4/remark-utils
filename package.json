@@ -23,7 +23,7 @@
     "gatsby-remark-autolink-headers": "^2.0.14",
     "gatsby-remark-prismjs": "^3.2.4",
     "prismjs": "^1.15.0",
-    "remark": "^10.0.1",
+    "remark": "^14.0.0",
     "remark-grid-tables": "^1.4.0",
     "remark-html": "^9.0.0",
     "remark-strip-html": "^1.0.1",
