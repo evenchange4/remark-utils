@@ -20,8 +20,8 @@
   },
   "dependencies": {
     "elasticlunr": "^0.9.5",
-    "gatsby-remark-autolink-headers": "^2.0.14",
-    "gatsby-remark-prismjs": "^3.2.4",
+    "gatsby-remark-autolink-headers": "^6.0.0",
+    "gatsby-remark-prismjs": "^7.0.0",
     "prismjs": "^1.15.0",
     "remark": "^10.0.1",
     "remark-grid-tables": "^1.4.0",
